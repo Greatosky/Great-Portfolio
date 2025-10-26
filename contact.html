@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | GreatDev Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">Great<span>Dev</span></div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+     <!-- 🌓 Dark/Light Mode Toggle -->
+         <div class="theme-toggle" id="theme-toggle">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+        </div>
+  </header>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact">
+    <div class="contact-container">
+      <h1>Let’s Connect</h1>
+      <p class="contact-subtitle">
+        Got a project, idea, or opportunity? I’d love to hear from you.
+      </p>
+
+      <div class="contact-wrapper">
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xvgwegad" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="_replyto" id="email" placeholder="Your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6" placeholder="Your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Other Ways to Reach Me</h3>
+          <p><i class="fas fa-envelope"></i> greatgreat081@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Remote / Open to Global Projects</p>
+
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Great Ezenwa | All Rights Reserved</p>
+  </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
