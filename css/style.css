@@ -93,7 +93,6 @@ nav a.active {
   align-items: center;
   gap: 30px;
   max-width: 850px;
-  /* background: red; */
   padding: 1rem 1rem;
 }
 
@@ -121,7 +120,7 @@ nav a.active {
 
 .hero-text .intro {
   max-width: 500px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* ===== DOWNLOAD CV BUTTON ===== */
@@ -228,10 +227,10 @@ nav a.active {
 /* ===== CONTACT PAGE ===== */
 
 .contact {
-  padding: 80px 10%;
+  padding: 90px 10%;
   background-color: #f9f9f9;
   color: #333;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .contact-container {
@@ -260,8 +259,8 @@ nav a.active {
   display: block;
 }
 .contact-form {
-  min-width: 300px;
   background: #fff;
+  border: 2px whitesmoke solid;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -353,8 +352,8 @@ nav a.active {
 /* ===== PROJECTS PAGE ===== */
 .projects {
   width: 100%;
-  padding: 3rem 0;
-  margin-top: 5rem;
+  padding: 5rem 0;
+  margin-top: 2rem;
   text-align: center;
   color: #333;
   background-color: #f9f9f9;
@@ -499,6 +498,10 @@ body.dark-mode textarea {
   border: 1px solid #555;
 }
 
+footer{
+  padding: 2rem 2rem;
+  background: white;
+}
 
 /* ========= Responsive Design ========= */
 
@@ -516,7 +519,6 @@ body.dark-mode textarea {
     font-size: 2rem;
   }
   .contact-wrapper {
-    flex-direction: column;
     align-items: center;
   }
 
@@ -646,15 +648,12 @@ body.dark-mode textarea {
   }
 
   .hero {
-    padding: 60px 5%;
-    text-align: center;
+    padding: 75px 1.5rem;
+    text-align: left;
+    margin-top: 2rem;
   }
   .hero-content{
     padding: 0;
-  }
-  .hero-image img {
-    width: 150px;
-    height: 150px;
   }
 
   .hero-text h1 {
@@ -669,6 +668,12 @@ body.dark-mode textarea {
   .btn {
     font-size: 13px;
     padding: 10px 15px;
+  }
+  .contact-container h1{
+    font-size: 2rem;
+  }
+  .contact-container p{
+    font-size: 14px;
   }
   .projects h1 {
     font-size: 1.5rem;
