@@ -227,7 +227,7 @@ nav a.active {
 /* ===== CONTACT PAGE ===== */
 
 .contact {
-  padding: 90px 10%;
+  padding-top: 90px;
   background-color: #f9f9f9;
   color: #333;
   margin-top: 2rem;
@@ -237,6 +237,7 @@ nav a.active {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+  padding: 2rem 20px;
 }
 
 .contact h1 {
@@ -312,7 +313,6 @@ nav a.active {
 }
  
 .contact-info {
-  flex: 1;
   min-width: 280px;
   text-align: left;
   margin-top: 2rem;
@@ -522,9 +522,7 @@ footer{
     align-items: center;
   }
 
-  .contact-info {
-    text-align: center;
-  }
+ 
 }
 
 @media (max-width: 992px) {
